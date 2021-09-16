@@ -1,0 +1,248 @@
+body {
+    background-color: #f7f0f0;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none; 
+
+}
+    
+
+    #zero{
+        display: block;
+    }
+    #um{
+        display:block ;
+    }
+    #dois{
+        display: flex;
+    }
+
+    
+
+.main-header{
+    position: fixed;
+    width:220px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    border: 2px solid #ccc;
+    
+}
+#primeiro-titulo{
+    padding: 10px;
+    width: 200px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+   top:0px;
+   left:0;
+   position: absolute;
+}
+
+
+#imagem-menu{
+margin-top: 80px;
+   height: 255px;
+   width: 220px;
+   position: relative;
+
+}
+
+.main-header  a { 
+    text-decoration: none;
+    color: #725C5C;
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+    padding: 5px;
+}
+
+.menu-principal{
+    border: 1px solid #ccc;
+    
+}
+.menu-principal:hover{
+    background: #FDF1EB;
+
+}
+#main-content{
+    width:1120px;
+    margin-left: 15%;
+    padding: 1px 30px;
+    background: #FDF1EB;
+    height:80px;
+    position: static;
+    background: #FDF1EB;
+    
+}
+#zero{
+  padding-left: 40px;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 1px;
+    left: 225px;
+    color: #725C5C;
+    position:fixed;
+    
+}
+#um{
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 36px;
+    color: #725C5C;
+    position:fixed;
+    left: 225px;
+    top:8px;
+
+    
+}
+
+#dois{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    position: fixed;
+    left: 225px;
+    top:48px;
+    margin-left: 36px;
+   color: #725C5C;
+    
+  }
+  
+  #conteudo {  
+    float:left;
+    overflow-y: auto;
+    max-height: 600px;
+      margin-top: 20px;
+    width: 786px;
+    border-radius: nullpx;
+    position: fixed;
+    left: 263px;
+    position:fixed;
+  box-sizing:content-box;}
+
+    
+  #conteudo p{
+      
+     margin-top: 0;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+   
+    
+  }
+  #lateral{
+       position: fixed;
+       left: 1070px;
+       top:100px;
+       
+      
+  }
+  #botao{ 
+    border: none;
+    background: #ED7839;
+    text-align: center;
+    height: 31px;
+    width: 120px;
+    left: 842px;
+    top: 0px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    
+  }
+ #estrela{
+     border: none;
+     height: 31px;
+    width: 43px;
+    left: 967px;
+    top: 0px;
+    border-radius: 4px;
+    background: #ED7839;
+    color: #EE7A3A;
+    cursor: pointer;
+ }
+ #doi{
+    border: none;
+    height: 31px;
+    width: 43px;
+    left: 1015px;
+    top: 0px;
+    border-radius: 4px;
+    background: #ED7839;
+    cursor: pointer;
+    
+ }
+ #texto{
+    font-weight: 500;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    
+ }
+ .pai{
+    
+     position:static;
+    width: 242px;
+    height: 45px;
+    left: 816px;
+    top: 73px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+   
+     
+ }
+ 
+ #texto1{
+  border-bottom: none;
+  margin-top: 10px;
+  margin-right: 130px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align:center;
+  color:#4E4E4E ;
+}
+@media (max-width: 900px) { 
+    #conteudo{
+        width: 300px;
+    }
+    #zero{
+        padding-left:40px;
+       
+    }
+    #um{
+        padding-top: 15px;
+        font-size: 15px;
+        
+    }
+ 
+ #botoes{
+     display: none;
+     
+ }
+}
+
